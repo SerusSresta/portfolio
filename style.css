@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aqua;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(41, 41, 41);
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: aqua;
+    font-size: 1.05rem;
+}
+
+.right {
+    font-size: 1rem;
+    padding-left: 600px;
+}
+
+.left {
+    font-size: 2rem;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    margin: 105px 0;
+    color: black;
+    align-items: center;
+
+}
+
+.leftSection {
+    color: black;
+    width: 40%;
+    font-size: 3rem;
+    margin: 150px 0;
+    padding-left: 110px;
+
+}
+
+.rightSection {
+    color: black;
+    width: 45%;
+    padding-right: 225px;
+
+}
+
+.cd {
+    color: rgb(188, 9, 188);
+}
+
+
+
+#element {
+    color: rgb(188, 9, 188);
+
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    color: black;
+    height: 80vh;
+
+}
+
+.secondSection h1 {
+    font-size: 2rem;
+}
+
+
+main hr {
+    border: 0;
+    background: rgb(188, 9, 188);
+    height: 1.2px;
+    margin: 40px 10px;
+}
+
+
+.text-grey {
+    color: rgb(52, 50, 50);
+}
+
+
+.services {
+
+    max-width: 80vw;
+    margin: auto;
+    color: black;
+    height: 105vh;
+    font-size: 2rem;
+}
+
+.our {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.secondSection{
+    height: 30vh;
+    padding: 10px 10px;
+}
+
+.swiper {
+
+    width: 70%;
+    height: fit-content;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+
+
+.corel-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    padding-bottom: 30px;
+}
+
+.corel-text1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    padding-bottom: 30px;
+}
+
+.corel-text2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    padding-bottom: 30px;
+}
+
+
+
+.swiper-button-prev {
+    color: black;
+}
+
+.swiper .swiper-button-next,
+.swiper .swiper-button-prev {
+
+    color: rgb(0, 0, 0);
+}
+
+.swiper .swiper-pagination-bullet-active {
+    background: black;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 18px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 100%;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .player{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ padding-bottom: 80px;
+ margin-top: -60px;
+
+  }

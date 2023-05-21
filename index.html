@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sures Sresta</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        footer {
+            background-color: rgb(22, 22, 22);
+            height: 200px;
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 250px;
+        }
+
+        .text-center {
+            text-align: center;
+            color: white;
+        }
+
+        .contact a {
+            color: aliceblue;
+
+        }
+
+        .contact a:hover {
+            color: rgb(179, 6, 6);
+
+        }
+
+        .copyright {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 20px;
+            color: rgb(182, 179, 179);
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left">sures</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <!--first section-->
+        <section class="first">
+            <div class="leftSection">
+                Hi, My name is <span class="cd">Sures Sresta</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="asssets\bg.png" alt="">
+            </div>
+        </section>
+
+        <!--Our Services-->
+
+        <section class="services">
+            <hr class="seperate">
+
+            <h1 class="our">Our Services</h1>
+
+            <div class="container">
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <img src="asssets\video1.jpg" alt="">
+                            <h2 class="corel-text">Video Production</h2>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="asssets\web.jpg" alt="">
+                            <h2 class="corel-text1">Website Development</h2>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="asssets\graphics.png" alt="">
+                            <h2 class="corel-text2">Graphics Designing</h2>
+                        </div>
+
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <!--projects display section-->
+        <section class="secondSection">
+            <hr>
+            <span class="text-grey">What I have done so far.</span>
+            <h1>Work Experience</h1>
+
+        </section>
+        <div class="player">
+            <iframe width="1080" height="720" src="https://www.youtube.com/embed/keLuekL4-0M">
+            </iframe>
+
+        </div>
+    </main>
+    <!--FOOTER-->
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Sures's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul class="contact">
+                    Contact on : <a style="text-decoration: none"
+                        href="https://mail.google.com/mail/u/0/#inbox">sresta.sures10@gmail.com</a>
+                </ul>
+            </div>
+
+
+            <div class="footer-third">
+                <ul>
+                    <a href="https://www.facebook.com/sures.sresta" class="fa fa-facebook"></a>
+                    <a href="https://twitter.com/SrestaSures" class="fa fa-twitter"></a>
+                    <a href="https://www.instagram.com/sures_sresta/" class="fa fa-instagram"></a>
+                </ul>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <h3>sures sresta | All Right Reserved</h3>
+
+        </div>
+    </footer>
+
+    <!--JS-->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Video Editor', 'Web Developer', 'Graphics Designer'],
+            typeSpeed: 70,
+
+        });
+
+        const swiper = new Swiper('.swiper', {
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+
+        });
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+</body>
+
+</html>
