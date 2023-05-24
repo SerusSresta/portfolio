@@ -234,3 +234,27 @@ main hr {
  margin-top: -60px;
 
   }
+ .card {
+    position: relative;
+cursor: pointer;
+padding-bottom: 495px;
+}
+
+.card-front,
+.card-back {
+    position: absolute;
+    transition: transform .6s cubic-bezier(0.4, 0.0, 0.2, 1);
+    backface-visibility: hidden;
+}
+.card-back {
+    transform: rotateY(180deg);
+    padding-left: 250px;
+}
+
+.card:hover .card-front {
+    transform: rotateY(180deg);
+}
+
+.card:hover .card-back {
+    transform: rotateY(0);
+}
