@@ -258,3 +258,11 @@ padding-bottom: 495px;
 .card:hover .card-back {
     transform: rotateY(0);
 }
+.footer-first a {
+    text-decoration: none;
+    color: white;
+
+}
+.footer-first a:hover{
+    color: red;
+}
