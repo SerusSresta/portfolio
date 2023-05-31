@@ -84,6 +84,15 @@ nav ul li a:hover {
 
 }
 
+#cashcow{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: rgb(0, 0, 0);
+    
+}
+
 .secondSection {
     max-width: 80vw;
     margin: auto;
@@ -226,14 +235,47 @@ main hr {
     background: #125688;
     color: white;
   }
-  .player{
+.pro {
     display: flex;
-    justify-content: center;
-    align-items: center;
- padding-bottom: 80px;
- margin-top: -60px;
+    margin-top: 20px;
+}
 
-  }
+.pro1{
+display: flex;
+margin-top: 100px;
+}
+
+.pro2 {
+    display: flex;
+    margin-top: 100px;
+}
+
+.player {
+    padding-bottom: 80px;
+    margin: -120px 0px 0px 50px;
+
+}
+
+.player1 {
+    padding-bottom: 80px;
+    margin: -120px 0px 0px 50px;
+}
+
+.player2 {
+    padding-bottom: 80px;
+    margin: -120px 0px 0px 50px;
+}
+
+.player3 {
+    padding-bottom: 80px;
+    margin: -120px 0px 0px 50px;
+}
+
+.player4 {
+    padding-bottom: 80px;
+    margin: -120px 0px 0px 50px;
+}
+  
  .card {
     position: relative;
 cursor: pointer;
