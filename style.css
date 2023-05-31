@@ -203,7 +203,7 @@ main hr {
 }
 
 
-/* Add a hover effect if you want */
+/*hover effect*/
 .fa:hover {
     opacity: 0.7;
 }
@@ -248,7 +248,7 @@ padding-bottom: 495px;
 }
 .card-back {
     transform: rotateY(180deg);
-    padding-left: 250px;
+    padding-left: 270px;
 }
 
 .card:hover .card-front {
