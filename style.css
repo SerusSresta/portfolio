@@ -238,16 +238,19 @@ main hr {
 .pro {
     display: flex;
     margin-top: 20px;
+    margin-left: 25px;
 }
 
 .pro1{
 display: flex;
 margin-top: 100px;
+    margin-left: 25px;
 }
 
 .pro2 {
     display: flex;
     margin-top: 100px;
+    margin-left: 25px;
 }
 
 .player {
